@@ -1,5 +1,5 @@
 // Thay đổi nội dung búc thư ở đây
-var letterContent = "Chúc người con gái anh thương có một ngày 8/3 ngập tràn niềm vui và hạnh phúc , chúc em luôn cười vui và không còn muộn phiền tiêu cực nữa nhé . Chúc cho chúng mình thành 1 đôi mãi bền lâu … thương em rất nhiều ❤️ "
+var letterContent = "Chúc người con gái anh thương có một ngày 8/3 ngập tràn niềm vui và hạnh phúc , chúc em luôn cười vui và không còn muộn phiền tiêu cực nữa nhé . Chúc cho chúng mình thành 1 đôi mãi bền lâu ❤️                       ký tên đào văn doanh "
 
 // Tốc độ viết chữ. Số càng nhỏ tốc độ càng nhanh. 50 là tốc độ khá phù hợp
 durationWrite = 50 
@@ -35,7 +35,7 @@ cardValentine.addEventListener("click", () => {
     cardValentine.classList.toggle("open")
 
     if(cardValentine.className.indexOf("open") != -1) {
-        setTimeout(effectWrite, 50)
+        setTimeout(effectWrite, 500)
     } else {
         setTimeout(() => {
             document.querySelector(".letterContent").innerHTML = ""

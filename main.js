@@ -35,7 +35,7 @@ cardValentine.addEventListener("click", () => {
     cardValentine.classList.toggle("open")
 
     if(cardValentine.className.indexOf("open") != -1) {
-        setTimeout(effectWrite, 500)
+        setTimeout(effectWrite, 50)
     } else {
         setTimeout(() => {
             document.querySelector(".letterContent").innerHTML = ""
